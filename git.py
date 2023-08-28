@@ -22,7 +22,7 @@ def main():
   if st.button('Find largest'):
     largest=find_larges(num1, num2, num3)
     st.write("The largest number is {largest}")
-if __name__=='main':
+if __name__=='__main__':
   main()
 
 
