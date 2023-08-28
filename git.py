@@ -4,7 +4,7 @@
 # In[1]:
 
 
-get_ipython().system('pip install streamlit')
+#get_ipython().system('pip install streamlit')
 
 
 # In[2]:
@@ -22,7 +22,7 @@ def main():
   if st.button('Find largest'):
     largest=find_larges(num1, num2, num3)
     st.write("The largest number is {largest}")
-if name=='main':
+if __name__=='main':
   main()
 
 
