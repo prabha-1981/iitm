@@ -1,14 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
-
-
-#get_ipython().system('pip install streamlit')
-
-
-# In[2]:
-
 
 import streamlit as st
 def find_largest(num1, num2, num3):
@@ -21,25 +13,6 @@ def main():
   num3=st.number_input('Enter the third number:')
   if st.button('Find largest'):
     largest=find_largest(num1, num2, num3)
-    st.write("The largest number is {largest}")
-if __name__=='main':
-  main()
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+    st.write("The largest number is",largest)
+if __name__ == '__main__':
+    main()
