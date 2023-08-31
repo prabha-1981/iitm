@@ -20,9 +20,9 @@ def main():
   num2=st.number_input('Enter the second number:')
   num3=st.number_input('Enter the third number:')
   if st.button('Find largest'):
-    largest=find_larges(num1, num2, num3)
+    largest=find_largest(num1, num2, num3)
     st.write("The largest number is {largest}")
-if __name__=='__main__':
+if __name__=='main':
   main()
 
 
